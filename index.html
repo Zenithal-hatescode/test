@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="interact.js"></script>
+</head>
+<body>
+    <script>
+        alert("Welcome to my project kuno")
+    </script>
+    <header>
+        <h1>Paolen Jay Perez</h1>
+        <p>Student</p>
+    </header>
+    <nav>
+        <a href="about">About</a>
+        <a href="projects">Projects</a>
+        <a href="contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a student of ZPPSU</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <article>
+                    <li><h3>Student Module</h3></li>
+                    <p>IDK</p>
+                </article>
+                <article>
+                    <li>HTML Learning</li>
+                    <p>So I can learn this shit</p>
+                </article>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: paolenjay@gmail.com</p>
+            <p>Location: Zamboanga City</p>
+        </section>
+    </main>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea name="messages" id="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <footer>
+        <p>Pagbago na Christian: All left not reserve</p>
+    </footer>
+</body>
+</html>
